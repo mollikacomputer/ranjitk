@@ -71,7 +71,7 @@ const Status = () => {
                   <div style={{ height: 1 }}>
                     {isVisible ? (
                       <CountUp end={1000} duration={3} suffix={"+"} />
-                    ) : null}{" "}
+                    ) : null}
                   </div>
                 )}
               </VisibilitySensor>
