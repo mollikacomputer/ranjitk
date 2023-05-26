@@ -7,7 +7,7 @@ const CountUpPage = () => {
       <div className={Styles.wrapper}>
         <div className={Styles.countupstyle}>
             <span className={Styles.num}>
-            <CountUp isCounting end={1320} duration={3.2} />  
+            <CountUp isCounting end={1320} duration={5} />  
             </span>  
             <p className={Styles.text}> 1st stage  </p>
         </div>
@@ -15,7 +15,7 @@ const CountUpPage = () => {
       <div className={Styles.wrapper}>
         <div className={Styles.countupstyle}>
             <span className={Styles.num} >
-            <CountUp isCounting end={2052} duration={3.2} /> 
+            <CountUp isCounting end={2052} duration={5} /> 
             </span>  
             <p className={Styles.text}> 2nd stage  </p>
         </div>
@@ -23,7 +23,7 @@ const CountUpPage = () => {
       <div className={Styles.wrapper}>
         <div className={Styles.countupstyle}>
             <span className={Styles.num}>
-            <CountUp isCounting end={55555} duration={3.2} /> 
+            <CountUp isCounting end={55555} duration={5} /> 
             </span>  
             <p className={Styles.text}> 3rd stage  </p>
         </div>
@@ -31,7 +31,7 @@ const CountUpPage = () => {
       <div className={Styles.wrapper}>
         <div className={Styles.countupstyle}>
             <span className={Styles.num} >
-            <CountUp isCounting end={6666} duration={3.2} /> 
+            <CountUp isCounting end={6666} duration={5} /> 
             </span>  
             <p className={Styles.text}> 4th stage  </p>
         </div>
