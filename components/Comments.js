@@ -1,5 +1,5 @@
 import React from "react";
-
+import Styles from "@/styles/comments.module.css";
 const Comments = () => {
   return (
     <section>
