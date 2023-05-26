@@ -1,0 +1,16 @@
+.portfolioImageEffect{
+    -webkit-animation: action 3s infinite  alternate;
+    animation: action 3s infinite  alternate;
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+    /* 0% {transform: rotateY(150deg)}
+    100% {transform: rotateY(360deg)} */
+}

@@ -4,6 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 // import Resume from '../../Assets/Resume.pdf';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Styles from "@/styles/herosection.module.css";
 // import {Link} from 'react-router-dom';
 
 const HeroSection = () => {
@@ -18,8 +19,10 @@ const HeroSection = () => {
     >
       <div className="hero-content flex-col lg:flex-row">
         <img
+        className={Styles.portfolioImageEffect}
           src='/ranjit.jpg'
-          className="max-w-sm rounded-lg shadow-2xl" alt="profile pic"
+          className={`${Styles.portfolioImageEffect} ${"max-w-sm rounded-lg shadow-2xl" }`}
+          alt="Portfolio image"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

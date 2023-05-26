@@ -1,8 +1,12 @@
 import React from "react";
 import { CountUp } from 'use-count-up';
 import Styles from "@/styles/countuppage.module.css";
+
 const CountUpPage = () => {
+
+
   return (
+    
     <div className={Styles.container}>
       <div className={Styles.wrapper}>
         <div className={Styles.countupstyle}>
@@ -38,6 +42,7 @@ const CountUpPage = () => {
       </div>
       {/* {firstTest()} */}
     </div>
+    
   );
 };
 

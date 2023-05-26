@@ -1,0 +1,91 @@
+
+.skill{
+    /* background-image: linear-gradient(to right, rgb(0, 47, 255) , rgba(0, 47, 255, 0.788)); */
+    background: #fff;
+}
+.skillBox{
+    width: 90%; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+.skillBar{
+    position: relative;
+    display: block;
+    height: 15px;
+    border-radius: 8px;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.1);
+}
+.skillPer{
+    position: relative;
+    display: block;
+    height: 15px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, rgba(0, 140, 255, 0.459) , rgba(0, 47, 255, 0.788));  
+}
+.skillPer{
+    animation: progress 0.8s ease-in-out forwards;
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+.html{
+    animation-delay: 0.4s;
+    width: 90%;
+}
+.css{
+    animation-delay: 0.6s;
+    width: 80%;
+}
+.javascript{
+    animation-delay: 0.8s;
+    width: 75%;
+}
+.node{
+    animation-delay: 0.10s;
+    width: 65%;
+}
+.mongodb{
+    animation-delay: 0.12s;
+    width: 60%;
+}
+.title{
+    font-weight: 800;
+}
+.titleText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: crimson;
+}
+.tooltip{
+    position: absolute;
+    right: -14px;
+    top: -30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    background:crimson;
+    z-index:101;
+}
+.tooltip::before{
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    background-color: crimson;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+}
