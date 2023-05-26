@@ -36,16 +36,18 @@ const HeroSection = () => {
           <TypeAnimation
             sequence={
                 [
-                    'Digital Marketer', 1000,
-                    'Facebook Marketing', 1000,
-                    'Youtube Boosting', 1000,
-                    'SMM Marketing', 1000,
-                    'Email Marketing', 1000,
-                    'Google Adward', 1000,
-                    'SEO', 1000,
-                    'Content Marketing', 1000,
-                    'Onpage SEO', 1000,
-                    'Off Page SEO', 1000,
+                    'HTML', 1000,
+                    'CSS', 1000,
+                    'Javascript', 1000,
+                    'ReactJs', 1000,
+                    'NodeJS', 1000,
+                    'MongoDB', 1000,
+                    'GoogleFirebase', 1000,
+                    'NextJs', 1000,
+                    'Static Website', 1000,
+                    'Dynamic Website', 1000,
+                    'Single Page Application', 1000,
+                    'Service Website', 1000,
                 ]
             }
                         //  Replacing previous Text
