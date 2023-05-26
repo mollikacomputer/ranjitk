@@ -7,8 +7,10 @@
     display: flex;
     justify-content: space-around;
     gap: 1%;
+    /* position: absolute; */
 }
 .wrapper{
+    position: relative;
     border: 1px solid white;
     border-radius: 8px;
     width: 25%;
@@ -53,3 +55,22 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width:480px) {
+    .container{
+        gap: 15px;
+    }
+    .wrapper{
+        height: 25vmin;
+        width: 100%;
+        font-size: 8px;
+    }
+}
+/* start counter */
+.counter {
+    width: 100px;
+    font: 800 40px system-ui;
+    overflow: hidden;
+  }
+  
+
+
