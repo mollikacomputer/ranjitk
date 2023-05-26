@@ -3,7 +3,7 @@
     height: auto;
     background: black;
     color: white;
-    padding: 1%;
+    padding: 5%;
     display: flex;
     justify-content: space-around;
     gap: 1%;
@@ -27,6 +27,9 @@
     font-size: 50px;
     
     
+}
+.num{
+    color: #e0e0e0;
 }
 .text{
     color: #e0e0e0;
