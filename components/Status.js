@@ -5,6 +5,8 @@ import { FaUsers, FaMoneyCheck, FaComment, FaTools } from "react-icons/fa";
 const Status = () => {
   return (
     <section className="container mx-auto ">
+
+
       <div className="text-center" >
       <h2 className="text-3xl my-16 font-bold ">Company Status</h2>
       </div>
@@ -39,7 +41,6 @@ const Status = () => {
               </div>
             </div>
           </div>
-
           {/* ______rviews______ */}
           <div className="stat">
             <div className="stat-figure text-red-400 s-full">
