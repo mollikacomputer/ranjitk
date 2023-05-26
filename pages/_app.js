@@ -10,9 +10,6 @@ export default function App({ Component, pageProps }) {
   return(
     <>
     <Navbar/>
-    <HeroSection/>
-    <Comments/>
-    <CountUpPage/>
     <Component {...pageProps} />
     <Footer/>
     </>
